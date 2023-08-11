@@ -1,0 +1,76 @@
+How Many Ways We Can Execute FrameWork/Test Cases
+-----------------------------------------------------
+
+1)TestNG.xml
+2)pom.xml
+3)command prompt
+4)run.bat
+5)Jenkins.
+
+pom.xml
+----------
+2 plugins are Required to execute project through pom.xml file
+
+1)maven-complier-plugin
+2)maven-surefire-plugin
+Execute test cases though command prompt:-
+----------------------------------------------
+maven
+-------
+    -->available as a plugin within eclipse.
+    -->available as maven software on Os.
+    
+How to install Maven on window os:
+-------------------------------------
+
+1)download maven & Extract zip file
+http://mirrors.estointernet.in/apache/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.zip
+
+2)set maven installed on window or not
+
+3)Verify maven installed on window or not
+
+    cd C:\Users\gowth\eclipse-workspace\selenium ecllipse\RestAssuredApiTesting_Employee_Project
+    mvn clean install
+
+Execute test cases using run.bat file
+---------------------------------------
+Create run.bat file
+
+
+Execute test cases using jenkins:-
+-----------------------------------------
+1)Download jenkins: http:/mirrors.jenkins.io/war-stable/latest/jenkins.war
+
+open command prompt , go to file location;
+
+java -jar jenkins.war
+
+
+Phases
+-----
+
+1)Design & Development frameWork
+2)Execution
+3)Maintain
+
+Git & GitHub:
+---------------------
+
+step1: Sign up to GitHub repository & get the account
+step2: Login to gitHub
+step3: Create a new repository
+        http://github.com/growth/RstAssuredApiTesting.git
+        
+step4: Cloning Local git repository within eclipse using GithubURL
+
+step5: Add our project to Local git repository
+
+      RightClick-->Share Project-->Select local repository from dropdown -->Finish
+      
+      RightClick-->Add to Index
+      
+      RightClick-->team-->Commit
+      
+      Version control System 
+
